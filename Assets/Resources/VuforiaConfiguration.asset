@@ -64,7 +64,7 @@ MonoBehaviour:
     autoInitTracker: 0
     autoStartTracker: 0
   webcam:
-    deviceNameSetInEditor: DroidCam Source 3
+    deviceNameSetInEditor: e2eSoft iVCam
     flipHorizontally: 0
     turnOffWebCam: 0
     renderTextureLayer: 30
