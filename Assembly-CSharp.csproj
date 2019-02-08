@@ -82,7 +82,7 @@
     <Compile Include="Assets\Common\Scripts\StatusMessage.cs" />
     <Compile Include="Assets\Common\Scripts\TapHandler.cs" />
     <Compile Include="Assets\Common\Scripts\TrackableSettings.cs" />
-    <Compile Include="Assets\LabMe\DroneController.cs" />
+    <Compile Include="Assets\LabMe\Scripts\DroneController.cs" />
     <Compile Include="Assets\SamplesResources\AugmentationAssets\Scripts\Augmentations\Astronaut.cs" />
     <Compile Include="Assets\SamplesResources\AugmentationAssets\Scripts\Augmentations\Augmentation.cs" />
     <Compile Include="Assets\SamplesResources\AugmentationAssets\Scripts\Augmentations\Drone.cs" />
