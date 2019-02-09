@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 15
-  productGUID: 00000000000000000000000000000000
+  productGUID: 43cf082fc1b39fe47bea779ad43ddde8
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -733,9 +733,11 @@ PlayerSettings:
   webGLLinkerTarget: 0
   webGLThreadsSupport: 0
   scriptingDefineSymbols:
-    4: VUFORIA_IOS_SETTINGS
-    7: VUFORIA_ANDROID_SETTINGS
-    14: VUFORIA_WSA_SETTINGS
+    1: CROSS_PLATFORM_INPUT
+    4: VUFORIA_IOS_SETTINGS;CROSS_PLATFORM_INPUT;MOBILE_INPUT
+    7: VUFORIA_ANDROID_SETTINGS;CROSS_PLATFORM_INPUT;MOBILE_INPUT
+    13: CROSS_PLATFORM_INPUT
+    14: VUFORIA_WSA_SETTINGS;CROSS_PLATFORM_INPUT;MOBILE_INPUT
   platformArchitecture:
     iOS: 2
   scriptingBackend:
@@ -823,7 +825,7 @@ PlayerSettings:
       InternetClientServer: False
       Location: False
       LowLevelDevices: False
-      Microphone: False
+      Microphone: True
       MusicLibrary: False
       Objects3D: False
       OfflineMapsManagement: False
@@ -845,7 +847,14 @@ PlayerSettings:
       VideosLibrary: False
       VoipCall: False
       WebCam: True
-  metroTargetDeviceFamilies: {}
+  metroTargetDeviceFamilies:
+    Desktop: False
+    Holographic: False
+    IoT: False
+    IoTHeadless: False
+    Mobile: False
+    Team: False
+    Xbox: False
   metroFTAName: 
   metroFTAFileTypes: []
   metroProtocolName: 
@@ -902,7 +911,7 @@ PlayerSettings:
   apiCompatibilityLevel: 3
   cloudProjectId: 41cb580d-3416-4f20-bd45-a3c8ca88f29c
   framebufferDepthMemorylessMode: 0
-  projectName: 
+  projectName: Lab.Me
   organizationId: m1234d
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
